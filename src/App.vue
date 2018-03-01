@@ -1,20 +1,19 @@
 <template>
   <div id="app">
-    <app-header></app-header>
     <router-view/>
   </div>
 </template>
 
 <script>
-import AppHeader from './components/AppHeader.vue'
 export default {
-  name: 'App',
-  components: { AppHeader }
+  name: 'App'
 }
 </script>
 
 <style>
 body {
+  margin: 0;
+  background: #0055aa;
   font-size: 16px;
   padding: 20px 100px 0px 100px;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
