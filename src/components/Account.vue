@@ -122,6 +122,7 @@ export default {
 
  ul {
      list-style: none;
+     margin-bottom: 80px;
  }
 
  li {
