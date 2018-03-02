@@ -126,7 +126,6 @@ export default {
 
  li {
      background: #f3f3f3;
-     width: 500px;
      min-height: 30px;
      margin-bottom: 10px;
      font-size: 1em;
